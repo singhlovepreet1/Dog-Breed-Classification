@@ -7,7 +7,7 @@ This project implements a Dog Breed Classification model using the Xception arch
 - Trains on dog breed images to classify them into their respective breeds.
 
 ## Dataset
-- The dataset is Kaggle's Dog Breed Dataset consists of images of 120 dog breeds.
+- The dataset is [Kaggle's Dog Breed Dataset](https://www.kaggle.com/datasets/jessicali9530/stanford-dogs-dataset/data) consists of images of 120 dog breeds.
 - Images are preprocessed to match the input size required by Xception (224x224).
 - With 120 breeds of dogs and a limited number training images per class, you might find the problem more, err, ruff than you anticipated. In this project, the top 10 dog breeds are used to speedup the training process and to run it on CPU.
 
